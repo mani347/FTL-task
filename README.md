@@ -12,7 +12,7 @@ sudo make install
 whereis python
 <path-of-python3.5.6> -m venv venv
 source venv/bin/activate
-In case you want change models:
+In case you want change models(for now this is done. migrations file and db.sqlite3 file pushed on git):
 	python manage.py makemigrations
 	python manage.py migrate
 To populate data:
